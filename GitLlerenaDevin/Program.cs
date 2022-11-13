@@ -88,7 +88,25 @@ namespace GitLlerenaDevin
             {
                 
                 Console.WriteLine("Esta poblacion No es productiva");
+
             }
+
+            var n = new Random().Next(1, 7);
+            var h = new Random().Next(1, 7);
+
+
+            var t = n + h;
+            Console.WriteLine("El numero de la suma es {0}",t);
+            if(n+h <4 || n+h==12)
+            {
+                Console.WriteLine("Ganaste el premio sorpresa de la trivia");
+            }
+            else
+            {
+                Console.WriteLine("Sigue intentando");
+            }
+
+
             Console.ReadKey();
         }
     }

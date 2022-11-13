@@ -82,12 +82,12 @@ namespace GitLlerenaDevin
             if (!(r>=18 && r<=50))
             {
                
-                Console.WriteLine("Esta poblacion es Trabajadora");
+                Console.WriteLine("Esta poblacion es productiva ");
             }
             else
             {
                 
-                Console.WriteLine("Esta poblacion No es economicamente activa");
+                Console.WriteLine("Esta poblacion No es productiva");
             }
             Console.ReadKey();
         }
